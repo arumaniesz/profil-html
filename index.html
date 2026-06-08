@@ -7,7 +7,6 @@
     <!-- Font Awesome -->
     <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap">
 
     <!-- Google Font -->
     <link
@@ -44,48 +43,30 @@
         animation:fadeDown 1s ease;
       }
       header h1{
-        font-family:'Cinzel', serif;
-        font-size:40px;
-        font-weight:700;
-        letter-spacing:3px;
+        font-size:38px;
+        color:white;
+        letter-spacing:2px;
         text-transform:uppercase;
-        
-        background:linear-gradient{
-          180deg
-          #fff7c2 0%,
-          #ffd700 30%,
-          #ffb300 60%,
-          #fff4b0 100%
-        };
-        -webkit-background-clip:text;
-        -webkit-text-fill-color:transparent;
-        
         text-shadow:
-          0 0 5px rgba(255,215,0,0.8),
-          0 0 10px rgba(255,215,0,0.7),
-          0 0 20px rgba(255,193,7,0.6),
-          0 0 35px rgba(255,152,0,0.5);
-        
-        animation:mythicGlow 2s ease-in-out infinite alternate;
+          0 0 10px #fff,
+          0 0 20px #81D4FA,
+          0 0 40px #29B6F6;
       }
-      
       header p{
         color:#fff;
         margin-top:8px;
         font-size:15px;
         letter-spacing:1px;
       }
-      @keyframes mythicGlow{
+      @keyframes fadeDown{
         from{
-          filter:drop-shadow(0 0 5px gold);
+          opacity:0;
+          transform:translateY(-40px);
         }
         to{
-          filter:drop-shadow(0 0 20px gold);
+          opacity:1;
+          transform:translateY(0);
         }
-      }
-      to{
-        opacity:1;
-        transform:translateY(0);
       }
       /* Efek Blink */
       @keyframes blink{
@@ -125,26 +106,10 @@
       }
       /* Nama */
       .card h2{
-        font-family:'Cinzel', serif;
-        font-size:28px;
-        letter-spacing:2px;
-
-        background:linear-gradient(
-          180deg,
-          #fff8dc,
-          #ffd700,
-          #ffb300
-        );
-
-        -webkit-background-clip:text;
-        -webkit-text-fill-color:transparent;
-
-        text-shadow:
-          0 0 5px #ffd700,
-          0 0 10px #ffcc00,
-          0 0 20px #ffb300;
+        font-size:30px;
+        margin-bottom:10px;
+        color:white;
       }
-
       /* Deskripsi */
       .desc{
         font-size:15px;
@@ -227,3 +192,15 @@
     </div>
   </body>
 </html>
+      
+        
+      
+            
+        
+        
+        
+        
+    
+      
+        
+ 
